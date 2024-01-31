@@ -1,0 +1,30 @@
+.content
+{
+    float: left;  
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;/*you can adjust the gap between columns if needed */
+}
+
+img
+{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    border: 10px;
+}
+
+.beach{
+    width: 1300px;
+    height: 900px;
+    margin: 10px;
+}
+
+ul li
+{
+    list-style: none;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+    font-size: large;
+}
